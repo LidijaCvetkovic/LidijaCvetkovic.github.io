@@ -121,11 +121,16 @@ img.fk-logo, img.kk-logo {
 
 #content-box h1 {
 	text-align: center;
+	border-bottom: 3px solid #aa161d;
 }
 
 .content-section {
 	text-align: justify;
 	clear: both;
+}
+
+.content-section h2 {
+	border-bottom: 3px solid #aa161d;
 }
 
 .content-section img {
