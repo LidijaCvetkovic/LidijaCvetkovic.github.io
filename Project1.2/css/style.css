@@ -320,7 +320,7 @@ footer > ul > li > a:hover {
 	}
 	
 	section img {
-		width: 30vh;
+		width: 30vh !important;
 	}
 
 	footer {
@@ -408,7 +408,7 @@ footer > ul > li > a:hover {
 	}
 	
 	section img {
-		width: 35vh;
+		width: 35vh !important;
 	}
 	
 	aside {
