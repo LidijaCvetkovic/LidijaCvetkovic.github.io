@@ -406,7 +406,10 @@ footer > ul > li > a:hover {
 	section p {
 		font-size: 1.2em;
 	}
-
+	
+	section img {
+		width: 35vh;
+	}
 	
 	aside {
 		width: 255px;
