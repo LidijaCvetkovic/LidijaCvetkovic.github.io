@@ -316,6 +316,10 @@ footer > ul > li > a:hover {
 	main {
 		margin-top: 155px;
 	}
+	
+	section img {
+		width: 30vh;
+	}
 
 	footer {
 		width: 100%;
@@ -401,10 +405,7 @@ footer > ul > li > a:hover {
 		font-size: 1.2em;
 	}
 
-	section img {
-		width: 35vh;
-	}
-
+	
 	aside {
 		width: 255px;
 	}
