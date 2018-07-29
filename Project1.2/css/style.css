@@ -266,21 +266,20 @@ footer > ul > li > a:hover {
 
 /* Media Queries */
 @media (min-width: 600px) {
-img.left {
-	width: 23vh;
-	float: left;
-	margin-right: 10px;
+	img.left {
+		width: 23vh;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 0;
+	}
+
+	img.right {
+		width: 23vh;
+		float: right;
+		margin-left: 10px;
+		margin-bottom: 0;
+	}
 }
-
-img.right {
-	width: 23vh;
-	float: right;
-	margin-left: 10px;
-}
-}
-
-
-
 
 @media (min-width: 800px) {
 
