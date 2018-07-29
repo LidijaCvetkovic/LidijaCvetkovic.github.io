@@ -321,6 +321,9 @@ footer > ul > li > a:hover {
 }
 
 @media (min-width: 1044px) {
+	nav > ul > li {
+		padding: 15px 0;
+	}
 
 	main {
 		margin-top: 135px;
