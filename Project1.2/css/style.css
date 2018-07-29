@@ -170,26 +170,16 @@ section h3 {
 }
 
 section img {
-	width: 23vh;
+	width: 100%;
 	height: auto;
 	border: 5px solid #ccc;
-	margin-top: 7px;
+	margin-bottom: 7px;
 }
 
 section img:hover {
 	opacity: 0.7;
 	position: relative;
     z-index: 0;
-}
-
-img.left {
-	float: left;
-	margin-right: 10px;
-}
-
-img.right {
-	float: right;
-	margin-left: 10px;
 }
 
 section p {
@@ -275,6 +265,23 @@ footer > ul > li > a:hover {
 }
 
 /* Media Queries */
+@media (min-width: 600px) {
+img.left {
+	width: 23vh;
+	float: left;
+	margin-right: 10px;
+}
+
+img.right {
+	width: 23vh;
+	float: right;
+	margin-left: 10px;
+}
+}
+
+
+
+
 @media (min-width: 800px) {
 
 	header {
