@@ -317,6 +317,7 @@ footer > ul > li > a:hover {
 
 	main {
 		margin-top: 155px;
+		margin-bottom: 80px !important;
 	}
 	
 	section img {
