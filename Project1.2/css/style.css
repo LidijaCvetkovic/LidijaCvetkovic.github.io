@@ -336,6 +336,31 @@ footer > ul > li > a:hover {
 	body, header, footer {
 		width: 65%;
 	}
+	
+	main {
+		flex-direction: row;
+		margin-top: 150px;
+	}
+	
+	section {
+		margin-left: 1%;
+		width: 70%;
+	}
+	
+	aside {
+		width: 200px;
+		text-align: left;
+	}
+	
+	.sd-bkg {
+		background-position: bottom right;
+		background-size: auto 400px;
+	}
+
+	.fk-bkg, .kk-bkg {
+		background-position: bottom right;
+		background-size: auto 480px;
+	}
 }
 
 @media (min-width: 1044px) {
@@ -384,9 +409,8 @@ footer > ul > li > a:hover {
 		width: 25%;
 		text-align: center;
 	}
-
+	
 	main {
-		flex-direction: row;
 		margin-top: 170px;
 	}
 
@@ -423,16 +447,6 @@ footer > ul > li > a:hover {
 		font-size: 1.2em;
 		line-height: 1.2em;
 	}
-
-	.sd-bkg {
-		background-position: bottom right;
-		background-size: auto 450px;
-	}
-
-	.fk-bkg, .kk-bkg {
-		background-position: bottom right;
-		background-size: auto 550px;
-	}
 	
 	footer > ul > li > a {
 		display: inline-block;
@@ -442,6 +456,14 @@ footer > ul > li > a:hover {
 	li.place-info {
 		width: 25%;
 		text-align: center;
+	}
+	
+	.sd-bkg {
+		background-size: auto 450px;
+	}
+
+	.fk-bkg, .kk-bkg {
+		background-size: auto 550px;
 	}
 
 }
