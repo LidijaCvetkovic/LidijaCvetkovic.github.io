@@ -288,6 +288,14 @@ ul li.checked::before {
     #container {
         width: 50%;
     }
+	
+    #header {
+    	height: 220px;
+    }
+	
+    header h1 {
+	padding-top: 90px;
+    }
 }
 
 @media (min-width: 1480px) {
