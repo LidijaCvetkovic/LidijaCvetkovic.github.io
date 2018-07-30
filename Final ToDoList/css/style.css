@@ -282,4 +282,16 @@ ul li.checked::before {
     #container {
         width: 60%;
     }
-}*/
+}
+
+@media (min-width: 1350px) {
+    #container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1480px) {
+    #container {
+        width: 40%;
+    }
+}
