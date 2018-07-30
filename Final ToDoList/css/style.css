@@ -296,6 +296,10 @@ ul li.checked::before {
     header h1 {
 	padding-top: 90px;
     }
+	
+     #add_form {
+        margin: 67px auto 0;
+    }
 }
 
 @media (min-width: 1480px) {
