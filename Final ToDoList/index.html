@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To Do List</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>To Do List</h1>
+		
+			<form id="add_form">
+				<input type="text" name="new_task" placeholder="New Task" id="new_task"><br><br>
+				<button type="submit" name="add_new_task" id="add_btn">Add Task</button>
+			</form>
+
+		</div>
+
+		<form id="filter_form">
+			<h2>&#9752; My Tasks &#9752;</h2>
+			<input type="text" name="search_tasks" placeholder="Filter Tasks" id="filter_tasks"><br><br>
+			
+			<ul id="tasks_list">
+			</ul>
+
+			<input type="button" name="clear_tasks" value="Clear Tasks" id="clear_btn">
+		</form>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
