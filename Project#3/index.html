@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project PVF</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">    
+    </head>
+    <body>
+    	<div class="container"><!-- begin of container -->
+    		<div id="left">
+    			<h1>PVF</h1>
+    		</div>
+
+    		<div id="right"><!-- begin of container -->
+    			<h2>Welcome to PVF</h2>
+
+    			<div id="login-form">
+                    <div id="login-error"></div>
+                    <input type="text" id="login-email" placeholder="Email" />
+                    <input type="password" id="login-password" placeholder="Password" />
+                    <button id="submit-signin" onclick="login()">Log In</button>
+                </div>
+
+                <div id="signup-form">
+	                <h3>Sign Up Form</h3>
+	                <div id="success"></div>
+	                <div id="errors"></div>
+	                <div class="form-group">
+	                    <input type="text" id="first-name" placeholder="Enter first name" />
+	                </div>
+	                <div class="form-group">
+	                    <input type="text" id="last-name" placeholder="Enter last name" />
+	                </div>
+	                <div class="form-group">
+	                    <input type="text" id="email" placeholder="Enter email" />
+	                </div>
+	                <div class="form-group">
+	                    <input type="text" id="phone" placeholder="Enter phone number in format  +381-63-77-77-777" />
+	                </div>
+	                <div class="form-group">
+	                    <input type="password" id="password" placeholder="Enter password" />
+	                </div>
+	                <div class="form-group" id="birthday">
+	                    <label for="bday">Birthday:</label>
+	                    <input type="date" id="bday" name="bday" min="1905-12-31" max="2018-12-31" />
+	                </div>
+	                <div class="form-group" id="gender">
+	                    <p>Gender:</p>
+	                    
+	                    <input type="radio" value="Female" class="gender" name="gender" id="female" />
+	                    <label for="female">Female</label>
+
+	                    <input type="radio" value="Male" class="gender" name="gender" id="male" />
+	                    <label for="male">Male</label>
+	                </div>
+	                <div class="form-group">
+	                    <button id="submit-signup" onclick="signup()">Sign Up</button>
+	                </div>
+				</div>
+            </div><!-- end of right section -->
+    	</div><!-- end of container -->
+    	
+    </body>
+    <script src="js/md5.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/login.js"></script>
+</html>

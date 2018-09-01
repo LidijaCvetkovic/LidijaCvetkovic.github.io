@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project PVF</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body class="box-size" onload="checkLogin(), loadData()">
+
+        <div class="container"><!-- begin header content -->
+            <div class="header">
+                <h1 class="brand">PVF</h1>
+                <div id="navbar">
+                    <a href="home.html">Home</a>
+                </div>
+            </div>
+        </div><!-- end header content -->
+
+        <div class="content"><!-- begin main content -->
+            <div id="errors"></div>
+            <div id="success"></div>
+            <div class="left-sidebar">
+                <div id="user-image"></div>
+
+                <div id="user-track">
+                    <div class="change-profile-image">
+                        <input type="file" id="profile-image" />
+                        <button onclick="changeProfileImage()">Change Profile Image</button>
+                    </div>
+                    <input type="text" name="search-box" id="search-box" placeholder="Search for users and posts...">
+                </div>
+
+            </div>
+
+            <div class="main">
+                <div id="user-info">
+                    <h2>About</h2>
+                    <div class="info-details">
+                        <span>name</span>
+                        <p class="info"></p>
+                    </div>
+                    <div class="info-details">
+                        <span>email</span>
+                        <p class="info"></p>
+                    </div>
+                    <div class="info-details">
+                        <span>phone</span>
+                        <p class="info"></p>
+                    </div>
+                    <div class="info-details">
+                        <span>birthday</span>
+                        <p class="info"></p>
+                    </div>
+                    <div class="info-details">
+                        <span>gender</span>
+                        <p class="info"></p>
+                    </div>
+                </div>
+
+                <div class="main-content">
+                    <div class="new-feed">
+                        <p>Create new post</p>
+                        <div class="add-feed">
+                            <input type="text" id="status" placeholder="What is your mind?" />
+                        </div>
+                        <div class="add-image">
+                            <div>
+                            <input type="file" id="image" />
+                            <input type="checkbox" id="private"><label for="private">Private</label>
+                            </div>
+                            <div>
+                                <button onclick="addImage()">Add Image</button>
+                                <button onclick="addStatus()">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="feed-list"></div>
+                </div>   
+            </div>
+
+        </div><!-- end main content -->
+
+    </body>
+    <script src="js/declare.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project PVF</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body class="box-size" onload="checkLogin(), loadImageData()">
+        
+        <div class="container"><!-- begin header content -->
+            <div class="header">
+                <h1 class="brand">PVF</h1>
+                <div id="navbar">
+                    <a href="home.html">Home</a>
+                </div>
+            </div>
+        </div><!-- end header content -->
+
+        <div id="errors"></div>
+        <div id="success"></div>
+
+        <div class="content row">
+            <div id="image-container">
+                <div class="image-meta">
+                    <div id="author-image"></div>
+                    <div id="author-name"></div>
+                </div>
+                <div id="photo"></div>
+            </div>
+            <div class="main-content" id="image-comments-container">
+                <div id="comments"></div>
+                <div class="add-comment">
+                	<input type="text" id="new-comment" placeholder="Write comment..." />
+                	<button onclick="addComment()">Add Comment</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/declare.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/image.js"></script>
+</html>
